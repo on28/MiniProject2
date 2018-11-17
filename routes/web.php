@@ -23,6 +23,8 @@ Route::get('/user/{user_id}/profile/{profile_id}', 'ProfileController@show')->na
 
 Route::get('/question/{question_id}/answer/{answer_id}', 'AnswerController@show')->name('answer.show');
 
+Route::get('/about', 'PagesController@about')->name('about');
+
 Route::resources([
     'question' => 'QuestionController',
 ]);
