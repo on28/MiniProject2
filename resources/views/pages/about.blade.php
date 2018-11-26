@@ -5,10 +5,8 @@
 
     <div class="container">
 
-        <p></p>
-        <br>
-        <br>
-        <b>Welcome to my Mini project III</b>
+        <p><a class="nav-link" href="/"><u>Back to Home</u><span class="sr-only">(current)</span></a></p>
+        <b>Welcome to my Mini Project III</b>
         <br>
         <br>All you need to know is that we are all about learning everything about laravel!</p>
 
