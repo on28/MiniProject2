@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+    <p align="center"><b>Please click on delete to delete the question or edit question to edit</b></p>
+    <br>
     <div class="container">
         <div class="row ">
-            <div class="col-md-8">
+            <div class="col-md-10">
                 <div class="card">
-                    <div class="card-header">Question</div>
+                    <div class="card-header"><b>Question</b></div>
 
                     <div class="card-body">
 
@@ -25,12 +27,37 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-10">
+
                 <div class="card">
-                    <div class="card-header"><a class="btn btn-primary float-left"
-                                                href="{{ route('answers.create', ['question_id'=> $question->id])}}">
-                            Answer Question
-                        </a></div>
+                    <div class="card-header"><b>Answer question</b></div>
+
+                    <div class="card-body">
+
+                        {!! Form::model('', ['route' => ['answers.store', $question], 'method' => 'post']) !!}
+
+
+                        <div class="form-group">
+                            {!! Form::label('body', 'Compose Answer') !!}
+                            {!! Form::text('body','', ['class' => 'form-control','required' => 'required']) !!}
+                        </div>
+                        <button class="btn btn-success float-right" value="submit" type="submit" id="submit">Save
+                        </button>
+                        {!! Form::close() !!}
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-10">
+                <br>
+                <div class="card">
+                    <div class="card-header">
+
+
+                        <h1> Answers </h1>
+                    </div>
 
                     <div class="card-body">
                         @forelse($question->answers as $answer)
@@ -56,4 +83,6 @@
                     </div>
                 </div>
             </div>
+
+
 @endsection
