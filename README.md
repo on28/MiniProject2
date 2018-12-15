@@ -1,15 +1,16 @@
-#Final Project
+# Final Project
+
 FOCUS: UX Design
 
-Created New project branch UX Design
+Created New project branch: UX Design
 
 Project is the design of a website for questions and answer, very similar to something like reddit
 You register on the site and then have the ability to post a question that can then be answered. 
 
-_****__**Moved answerform to the questions page**_****__
-
+_Moved answerform to the questions page_
 The original design of the FinalTest website page can be seen here - 
 https://github.com/on28/MiniProject3/blob/master/Before.png
+
 https://github.com/on28/MiniProject3/blob/master/before2.png
 
 Questions were asked on one page of the site and then the user had to be taken to another page in other to answer the question
