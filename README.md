@@ -8,7 +8,8 @@ Project is the design of a website for questions and answer, very similar to som
 You register on the site and then have the ability to post a question that can then be answered. 
 
 _Moved answerform to the questions page_
-The original design of the FinalTest website page can be seen here - 
+
+My final project's original design can be seen here - 
 https://github.com/on28/MiniProject3/blob/master/Before.png
 
 https://github.com/on28/MiniProject3/blob/master/before2.png
