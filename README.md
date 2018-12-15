@@ -59,17 +59,17 @@ make sure that a person can login
 
 # Register Test
 
-this->browse(function (Browser $browser) {
-            $browser->visit('http://localhost:8000/')
-                ->clickLink('Register')
-                ->assertSee('Register')
-
-                ->value('#email', 'test350@test.com')
-                ->value('#password', 'test123')
-                ->value('#password-confirm', 'test123')
-                ->click('button[type="submit"]')
-                ->assertPathis('/home')
-                ->assertSee("Questions");
+    this->browse(function (Browser $browser) {
+                $browser->visit('http://localhost:8000/')
+                    ->clickLink('Register')
+                    ->assertSee('Register')
+                    
+                    ->value('#email', 'test350@test.com')
+                    ->value('#password', 'test123')
+                    ->value('#password-confirm', 'test123')
+                    ->click('button[type="submit"]')
+                    ->assertPathis('/home')
+                    ->assertSee("Questions");
 
 # MiniProject3
 FAQ project to build a question and answer forum using laravel.
