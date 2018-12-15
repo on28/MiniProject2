@@ -10,6 +10,7 @@ You register on the site and then have the ability to post a question that can t
 _Moved answerform to the questions page_
 
 My final project's original design can be seen here - 
+
 https://github.com/on28/MiniProject3/blob/master/Before.png
 
 https://github.com/on28/MiniProject3/blob/master/before2.png
@@ -23,7 +24,10 @@ This would eliminate the need for each user to go to a different page to answer 
 Old answer page - 
 https://github.com/on28/MiniProject3/blob/master/before3.png
 
-With some code changes - The new question and answer page is now like this - 
+With code changes, labels and other design,
+
+The new question and answer page now looks like this - 
+
 https://github.com/on28/MiniProject3/blob/master/New.png
 
 A user can now easily read all previous answers without going from page to page and also provide their own answers all
