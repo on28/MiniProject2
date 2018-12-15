@@ -1,6 +1,8 @@
 #Final Project
 FOCUS: UX Design
 
+Created New project branch UX Design
+
 Project is the design of a website for questions and answer, very similar to something like reddit
 You register on the site and then have the ability to post a question that can then be answered. 
 
