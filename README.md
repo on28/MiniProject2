@@ -21,6 +21,8 @@ into same page as the question that a user asks.
 
 This would eliminate the need for each user to go to a different page to answer and read prior answers each time
 
+This change still reserves the user's ability to view an answer in a case where the response is too long in a different page
+
 Old answer page - 
 https://github.com/on28/MiniProject3/blob/master/before3.png
 
