@@ -1,3 +1,14 @@
+#Final Project
+FOCUS: UX Design
+
+Project is the design of a website for questions and answer, very similar to something like reddit
+You register on the site and then have the ability to post a question that can then be answered. 
+
+The original design of the FinalTest website page can be seen here - ![original site design]/Before.png
+
+
+
+
 # MiniProject3
 FAQ project to build a question and answer forum using laravel.
 In this mini project we setup the database models, migrations, unit tests, and seeds for the FAQ project's users, profile,

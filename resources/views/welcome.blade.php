@@ -81,7 +81,7 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Mini Project III
+            Final Project For Web Systems Dev
         </div>
 
         <div class="links">
